@@ -1,0 +1,447 @@
+<h2 style="text-align: center;">Name:- Roshan k kalamkar</h2>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    
+    <title>Front-end-project</title>
+    <style>
+        table{
+            height: 5%;
+            width: auto;
+            text-align: center;
+          
+        }
+        table,
+        th,
+        td {
+            border: 1px solid rgb(12, 12, 12);
+            
+        }
+        .problem3{
+            height: 25%;
+            width: 30%;
+           /* margin: 10px 12px 24px 48px; */
+        }
+/* {  
+    margin  0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.small-container{
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+   
+
+    
+}
+.single-product{
+    margin-top: 30px;
+}
+.small-img-row{
+    display: flex;
+    padding-top: 10px;
+    
+    justify-content:space-around;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.small-img-col{
+    flex-basis: 52px;
+    cursor:pointer;
+}
+.single-product .col-2 img{
+    padding: 0;
+}
+.single-product .col-2{
+    padding: 20px;
+
+}
+.col-2{
+    flex-basis: 40%;
+    min-width: 300px;
+    
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 5px 0px;
+}
+.single-product select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.single-product h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+.single-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid rgb(105, 67, 67);
+}
+input:focus{
+    outline: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(252, 252, 254);
+}
+.single-product.fa{
+    color: rgb(138, 65, 29);
+    margin-left: 10px;
+}
+p{
+    color: #552;
+}
+.btn{
+    display: inline-block;
+    background: rgb(243, 102, 20);
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 15px;
+    transition:  0.5s;
+}
+.btn:hover{
+    background:rgb(210, 156, 56);
+}
+.col-2 h5{
+ text-decoration: line-through;
+ font-style: oblique;
+ color: rgb(234, 93, 12);
+}
+    </style>
+</head>
+
+<body>
+
+  <div>
+      <hr>
+<h1 style="text-align: center;">Problem-1</h1>
+
+        <table >
+            <caption><h3>Employee information</h3></caption>
+            <tr>
+                <!-- Table Row -->
+                <th>Employee</th> <!-- Table Heading -->
+                <th>Position</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td>Alfreds Sampson</td> <!-- Table Data -->
+                <td>Architect</td>
+                <td>Mexico</td>
+            </tr>
+            <tr>
+                <td>Joe Handel</td>
+                <td>Designer</td>
+                <td>Turkey</td>
+            </tr>
+            <tr>
+                <td>Ernst Young</td>
+                <td>Developer</td>
+                <td>Austrilia</td>
+            </tr>
+            <tr>
+                <td>Helen Bennett</td>
+                <td>Teacher</td>
+                <td>UK</td>
+            </tr>
+            <tr>
+                <td>Yoshi Hamada</td>
+                <td>Manager</td>
+                <td>Japan</td>
+            </tr>
+            <tr>
+                <td>Giovanni Rovelli</td>
+                <td>Chef</td>
+                <td>Italy</td>
+            </tr>
+        </table>
+    
+<table>
+    <caption><h3>Students scores</h3></caption>
+    <tr >
+        <!-- Table Row -->
+        <th>Student</th> <!-- Table Heading -->
+        <th>Subject scores</th>
+        <th>Marks</th>
+    </tr>
+    <tr>
+        <td rowspan="3">Raj</td> <!-- Table Data -->
+        <td>Algebra</td>
+        <td>12</td>
+    </tr>
+    <tr>
+         <!-- Table Data -->
+        
+        <td>Geometry</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        
+        <td>Physics</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        
+        <td colspan="2">Total of all subjects</td>
+        <td>40</td>
+    </tr>
+    
+    
+</table>
+<table class="problem3">
+    <caption><h3>Hobbies</h3></caption>
+    <tr >
+        <td>Indoor</td>
+        <td>Chess</td>
+    </tr>
+    <tr>
+        <td>Outdoor</td>
+        <td>Cricket</td> 
+    </tr>
+</table>
+<br>
+<hr>
+<h1 style="text-align: center;">Problem-2</h1>
+<caption>
+    <h2>An ordered Lists</h2>
+</caption>
+<table>
+
+    <tr>
+        <!-- Table Row -->
+        <th>Ordered Lists - Type 1</th> <!-- Table Heading -->
+        <th>Ordered Lists - Type 2</th>
+        <th>Ordered Lists - Type 3</th>
+        <th>Ordered Lists - Type 4</th>
+        <th>Ordered Lists - Type 5</th>
+        <th>Ordered Lists - Different start </th>
+
+    </tr>
+
+    <tr>
+        <td>
+            <ol type="1">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+                <li>Juice</li>
+            </ol>
+        </td>
+
+        <td>
+            <ol type="I">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+                <li>Juice</li>
+            </ol>
+        </td>
+
+        <td>
+            <ol type="i">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+                <li>Juice</li>
+            </ol>
+        </td>
+
+        <td>
+            <ol type="A">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+                <li>Juice</li>
+            </ol>
+        </td>
+
+        <td>
+            <ol type="a">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+                <li>Juice</li>
+            </ol>
+        </td>
+
+        <td>
+            <ol type="i"start="4">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+                <li>Juice</li>
+            </ol>
+        </td>
+    </tr>
+
+</table>
+<div class="List">
+    <caption>
+        <h2>A Description List</h2>
+    </caption>
+    <dt>HTML</dt>
+    <dd>-This stands for Hyper Text Markup Language</dd>
+    <dt>CSS</dt>
+    <dd>-This stands for Cascading Style Sheets</dd>
+
+</div>
+<caption>
+    <h2>An Unordered Lists</h2>
+</caption>
+<table>
+    <tr>
+        <!-- Table Row -->
+        <th>Unordered Lists - Type 1</th> <!-- Table Heading -->
+        <th>Unordered Lists - Type 2</th>
+        <th>Unordered Lists - Type 3</th>
+    </tr>
+    <tr>
+        <td>
+            <ul style="list-style-type:disc;">
+                <li>Potato</li>
+                <li>Ginger</li>
+                <li>Radish</li>
+                <li>Spinach</li>
+            </ul>
+        </td>
+        <td>
+            <ul style="list-style-type:square;">
+                <li>Potato</li>
+                <li>Ginger</li>
+                <li>Radish</li>
+                <li>Spinach</li>
+            </ul>
+        </td>
+        <td>
+            <ul style="list-style-type:circle;">
+                <li>Potato</li>
+                <li>Ginger</li>
+                <li>Radish</li>
+                <li>Spinach</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+<caption><h2>Media Elements</h2></caption>
+<table>
+    
+    <tr>
+        <!-- Table Row -->
+        <th>Image</th> <!-- Table Heading -->
+        <th>Progressbar</th>
+    </tr>
+
+    <tr>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQva9aGcmZ3B4jg2CBZg-cqPu9gcojFg-2e2Q&usqp=CAU" alt="" height=100% width= 100%></img></td>
+        <td>
+             <progress max="100" value="35"  ></progress> 
+           
+        </td>
+    </tr>
+
+</table>
+<br>
+<hr>
+  <h1 style="text-align: center;">Problem-3</h1>
+  
+
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.tpJNOG2NFALeKpvX37wWkwHaJ4&pid=Api" width="100%"
+                id="ProductImg">
+            <div class="small-img-row">
+                <div class="small-img-col">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/7546902/2019/2/11/be44366c-a232-47ec-a7b4-c4bea24f04e71549886561293-HERENOW-Men-Teal-Solid-Polo-Collar-T-shirt-7371549886559966-1.jpg"
+                        width="100%" class="small-img" alt="">
+
+                </div>
+                <div class="small-img-col">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16740386/2022/2/3/c67f4854-5ab4-4777-8fec-e3595c693bf31643868092505-PUMA-Motorsport-Men-Navy-Blue-Graphical-Printed-Casual-T-shi-1.jpg"
+                        width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13549972/2021/2/25/1b88cc7d-99ab-4032-9cc4-47e65a2669401614233078070-Levis-Men-Tshirts-211614233076663-1.jpg"
+                        width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2232175/2018/3/27/11522134275560-Mast--Harbour-Men-Navy-Blue-Striped-Round-Neck-T-shirt-4401522134275464-5.jpg"
+                        width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/10017085/2019/6/20/2be736d5-66cb-43a2-8208-5cea2ee1e0711561027340024-Campus-Sutra-Graphic-Print-Men-Round-Neck-Grey-T-Shirt-43715-1.jpg"
+                        width="100%" class="small-img">
+                </div>
+            </div>
+        </div>
+        <div class="col-2">
+            <h2>Product page</h2>
+            <p>Home / T-Shirts</p>
+            <h1>T-Shirts by Enjoy Dude</h1>
+            <h4>$29.99</h4>
+            <span style="font-weight: bolder; "> $59.99 <del> $00 </del> <span style="color: green;"> 50%
+                    Off</span> <br> <b>Available Stock :</b> <span sylte=> 6 </span> <br>
+                <select>
+                    <option>Select Size</option>
+                    <option>XXL</option>
+                    <option>XL</option>
+                    <option>Large</option>
+                    <option>Medium</option>
+                    <option>Small</option>
+                </select>
+                <input type="number" value="1">
+                <a href="" class="btn">Add to Cart</a>
+                <a href="" class="btn">Buy now</a>
+                <a href="" class="btn">share</a>
+                <div class="star">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                </div>
+
+                <h3>Products Details <i class="fa fa-indent"></i></h3>
+                <br>
+                <p>Give your wardrobe a style upgrade with the man's Active T-Shirts. Term it with a pair of short
+                    for
+                    your morning workout or a denimsn for an evening out with the guys</p>
+
+        </div>
+    </div>
+</div>
+</body>
+
+    
+
+</html>
